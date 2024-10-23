@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">Full Name:</label>
+            <br>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="pno">Phone Number:</label>
+            <br>
+            <input type="tel" id="pno" name="pno">
+            <br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="rbtn" name="gender">
+            <label for="rbtn">Male</label>
+            <br>
+            <input type="radio" id="Female" name="gender">
+            <label for="Female">Female</label>
+            <br>
+            <input type="radio" id="Other" name="gender">
+            <label for="Other">Other</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Course Selection</legend>
+            <label for="course">Select a Course:</label>
+            <br>
+            <select name="course" id="course" style="width: 130px;">
+                <option value="course">Science</option>
+                <option value="course">Math</option>
+                <option value="course">Physics</option>
+            </select>
+            <br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Additional Comments</legend>
+            <label for="Comments">Comments:</label>
+            <br>
+            <textarea name="Comments" id="Comments" ></textarea>
+            <br><br>
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Submit Registration">
+        <br><br>
+    </form>
+
+</body>
+</html>
