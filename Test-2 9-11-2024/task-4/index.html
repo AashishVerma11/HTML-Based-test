@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Registration Form</title>
+</head>
+<body>
+    <h1>Admission Registration Form</h1>
+    <form >
+    <fieldset>
+        <legend>Personal Information</legend>
+        
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname">
+            <br><br>
+            <label for="date">Date of Birth:</label>
+            <input type="date">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" id="gender">
+            <label for="gender" name="gender">Male</label>
+            <br>
+            <input type="radio" id="female">
+            <label for="female" name="gender">Female</label>
+            <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email">
+            <br><br>
+            <label for="phn">Phone Number:</label>
+            <input type="tel" id="phn">
+       
+    </fieldset>
+
+    <fieldset>
+        <legend>Education Details</legend>
+        <label for="hscl">High School Name:</label>
+        <input type="text" id="hscl">
+        <br><br>
+        <label for="yr">Year of passing:</label>
+        <input type="number" id="yr">
+        <br><br>
+        <label for="grad">Grade/Percentage:</label>
+        <input type="number" id="grad">
+        <br><br>
+    </fieldset>
+
+    
+    <fieldset>
+        <legend>Course Selection</legend>
+        <label for="course">Preferred Course:</label>
+        <select name="course" id="course">
+            <option value="course">Computer Science</option>
+            <option value="course">Electrical</option>
+            <option value="course">Mechanica</option>
+            <option value="course">Civil</option>
+        </select>
+        <br><br>
+        <label for="sem">Semester:</label>
+        <input type="number" id="sem">
+        <br><br>
+       
+    </fieldset>
+    <fieldset>
+        <legend>Address Information</legend>
+        <label for="add">Permanent Address:</label>
+        <br>
+        <textarea name="add" id="add"></textarea>
+        <br><br>
+        <label for="city">City:</label>
+        <input type="text" id="city">
+        <br><br>
+        <label for="state">State:</label>
+        <input type="text" id="state">
+        <br><br>
+        <label for="zip">ZIP Code:</label>
+        <input type="number" id="zip">
+        <br><br>
+    </fieldset>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
